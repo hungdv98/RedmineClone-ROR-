@@ -31,8 +31,8 @@ gem "mini_magick"
 gem "omniauth"
 gem "omniauth-facebook"
 gem "omniauth-google-oauth2"
-gem "ckeditor"
-
+gem 'ckeditor', '4.2.4'
+gem "pg"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
